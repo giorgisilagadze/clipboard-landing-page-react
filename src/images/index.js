@@ -1,0 +1,6 @@
+export {default as logoImg} from "./logo.svg"
+export {default as compImg} from "./image-computer.png"
+export {default as tabletImg} from "./image-devices.png"
+export {default as paper} from "./icon-text.svg"
+export {default as ai} from "./icon-blacklist.svg"
+export {default as view} from "./icon-preview.svg"

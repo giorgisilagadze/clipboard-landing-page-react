@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import Header from "./components/header";
-import {Container} from "./components/styled/Container.styled";
+import Container from "./components/Container";
 import { GlobalStyles } from "./components/styled/Global.styled";
 
 const theme = {
@@ -14,11 +14,10 @@ function App() {
   return (
     // <ThemeProvider theme = {theme}>
       <>
-        <GlobalStyles>
+        <GlobalStyles />
           <Header/>
           <Container>
           </Container>
-        </GlobalStyles>
       </>
     // </ThemeProvider>
   );
