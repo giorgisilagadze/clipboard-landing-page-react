@@ -2,6 +2,8 @@ import { ThemeProvider } from "styled-components";
 import Header from "./components/header";
 import Container from "./components/Container";
 import { GlobalStyles } from "./components/styled/Global.styled";
+import Footer from "./components/Footer";
+
 
 const theme = {
   colors: {
@@ -16,8 +18,8 @@ function App() {
       <>
         <GlobalStyles />
           <Header/>
-          <Container>
-          </Container>
+          <Container />
+          <Footer/>
       </>
     // </ThemeProvider>
   );
